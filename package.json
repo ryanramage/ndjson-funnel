@@ -1,0 +1,26 @@
+{
+  "name": "ndjson-funnel",
+  "version": "1.0.0",
+  "description": "funnel ndjson into an pre-existing object",
+  "bin": "./bin/cli.js",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "lodash.set": "^4.3.2",
+    "ndjson": "^1.4.3"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanramage/ndjson-funnel.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ryanramage/ndjson-funnel/issues"
+  },
+  "homepage": "http://github.com/ryanramage/ndjson-funnel"
+}
