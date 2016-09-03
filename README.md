@@ -1,6 +1,6 @@
 # ndjson-funnel
 
-funnel ndjson into an pre-existing object
+funnel ndjson into an pre-existing object.
 
 It sometime is nice to output a large ndjson stream into an actual json object.
 
