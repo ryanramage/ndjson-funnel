@@ -1,7 +1,7 @@
 {
   "name": "ndjson-funnel",
   "version": "1.0.0",
-  "description": "funnel ndjson into an pre-existing object",
+  "description": "funnel ndjson into an pre-existing object.",
   "bin": "./bin/cli.js",
   "main": "./lib/index.js",
   "dependencies": {
