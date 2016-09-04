@@ -4,7 +4,7 @@ funnel ndjson into an pre-existing object.
 
 It sometime is nice to output a large ndjson stream into an actual json object.
 
-example make a rows array in an existing template object
+example make a rows array in an existing template object:
 
     echo '{"results":{"ok": true}}' > template.json
     cat something.csv | csv-parser | ndjson-funnel template.json results.rows > final.json
